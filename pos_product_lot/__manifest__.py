@@ -1,18 +1,19 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Discount for total amount of pos order',
-    'version': '1.0.0',
+    'name': 'Product lot in POS',
+    'version': '1.0.2',
     'author': 'IT-Projects LLC, Ivan Yelizariev',
     'license': 'LGPL-3',
     'category': 'Point Of Sale',
-    "support": "apps@it-projects.info",
     'website': 'https://twitter.com/yelizariev',
-    'price': 15.00,
-    'currency': 'EUR',
-    'depends': ['point_of_sale'],
+    'images': ['images/screenshot.png'],
+    'depends': ['product_lot', 'pos_product_available'],
     'data': [
         'data.xml',
     ],
-    'installable': True,
+    'qweb': [
+        'static/src/xml/pos.xml',
+    ],
+    'installable': False,
     'auto_install': False,
 }

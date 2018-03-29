@@ -11,9 +11,6 @@
     "support": "apps@it-projects.info",
     "website": "https://twitter.com/gabbasov_dinar",
     "license": "LGPL-3",
-    "price": 59.00,
-    "currency": "EUR",
-
     "depends": [
         "hw_escpos",
     ],

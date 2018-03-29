@@ -1,20 +1,18 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "POS debranding",
-    'version': '1.0.0',
+    'name': 'Available quantity of products in POS',
+    'version': '1.0.3',
     'author': 'IT-Projects LLC, Ivan Yelizariev',
     'license': 'LGPL-3',
-    'category': 'Debranding',
+    'category': 'Point Of Sale',
     "support": "apps@it-projects.info",
     'website': 'https://twitter.com/yelizariev',
-    'depends': ['point_of_sale'],
-    # 'price': 30.00,
-    # 'currency': 'EUR',
+    'depends': ['point_of_sale', 'stock'],
     'data': [
-        'views.xml',
+        'data.xml',
     ],
     'qweb': [
-        'static/src/xml/pos_debranding.xml',
+        'static/src/xml/pos.xml',
     ],
     'installable': True,
 }

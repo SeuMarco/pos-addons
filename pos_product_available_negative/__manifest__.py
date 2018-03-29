@@ -13,9 +13,5 @@
         'data.xml',
         'views.xml',
     ],
-
-    "price": 50.00,
-    "currency": "EUR",
-
-    'installable': False,
+    'installable': True,
 }

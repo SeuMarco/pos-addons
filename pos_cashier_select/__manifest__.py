@@ -11,9 +11,6 @@
     "support": "apps@it-projects.info",
     "website": "https://it-projects.info",
     "license": "LGPL-3",
-    "price": 39.00,
-    "currency": "EUR",
-
     "depends": [
         "point_of_sale",
     ],
@@ -24,7 +21,6 @@
     "qweb": [
         "static/src/xml/pos.xml",
     ],
-
     "post_load": None,
     "pre_init_hook": None,
     "post_init_hook": None,
