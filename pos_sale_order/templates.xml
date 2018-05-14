@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
+<odoo>
     <data>
         <!-- POS -->
         <template id="assets_backend" name="point_of_sale assets" inherit_id="point_of_sale.assets_backend">
@@ -8,4 +8,4 @@
             </xpath>
         </template>
     </data>
-</openerp>
+</odoo>

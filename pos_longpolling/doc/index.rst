@@ -12,7 +12,7 @@ Check following resources about activating longpolling:
 
 In short, you need to start server with non-zero ``workers`` parameter:::
 
-    openerp-server --workers=2 ...
+    odoo-server --workers=2 ...
 
 and configure nginx: ::
 

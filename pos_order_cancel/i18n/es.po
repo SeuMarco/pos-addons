@@ -44,7 +44,7 @@ msgid "Amount total w/o Tax"
 msgstr "Total sin Impuestos"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/widgets.js:282
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:63
 #, python-format
@@ -52,7 +52,7 @@ msgid "Apply"
 msgstr "Aplicar"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:35
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:59
 #, python-format
@@ -60,7 +60,7 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:95
 #, python-format
 msgid "Cancel by"
@@ -102,7 +102,7 @@ msgid "Canceled Order lines"
 msgstr "Líneas de Órdenes Canceladas"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/widgets.js:56
 #, python-format
 msgid "Cancellation Reason"
@@ -185,7 +185,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/widgets.js:188
 #, python-format
 msgid "Indicate the reason for cancellation."
@@ -230,7 +230,7 @@ msgid "Months"
 msgstr "Meses"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:76
 #, python-format
 msgid "Name"
@@ -247,7 +247,7 @@ msgid "No Negative Refunds"
 msgstr ""
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:39
 #, python-format
 msgid "Ok"
@@ -259,7 +259,7 @@ msgid "Order Cancellation Reason"
 msgstr "Razón de Cancelación de la Orden"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/models.js:37
 #, python-format
 msgid "Order Deleting"
@@ -271,7 +271,7 @@ msgid "Order Ref"
 msgstr "Ref Orden"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:24
 #, python-format
 msgid "Other"
@@ -323,14 +323,14 @@ msgid "Products"
 msgstr "Productos"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/widgets.js:93
 #, python-format
 msgid "Quantity for Cancellation"
 msgstr ""
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:9
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:12
 #: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_name
@@ -455,7 +455,7 @@ msgid "Users"
 msgstr "Usuarios"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/widgets.js:187
 #, python-format
 msgid "Warning"

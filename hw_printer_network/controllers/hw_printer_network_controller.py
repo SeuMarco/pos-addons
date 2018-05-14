@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-from openerp import http
+from odoo import http
 import logging
 import time
 import socket
@@ -12,11 +11,11 @@ _logger = logging.getLogger(__name__)
 
 
 try:
-    from openerp.addons.hw_escpos.escpos import escpos
-    from openerp.addons.hw_escpos.controllers.main import EscposProxy
-    from openerp.addons.hw_escpos.controllers.main import EscposDriver
-    from openerp.addons.hw_escpos.escpos.printer import Network
-    import openerp.addons.hw_proxy.controllers.main as hw_proxy
+    from odoo.addons.hw_escpos.escpos import escpos
+    from odoo.addons.hw_escpos.controllers.main import EscposProxy
+    from odoo.addons.hw_escpos.controllers.main import EscposDriver
+    from odoo.addons.hw_escpos.escpos.printer import Network
+    import odoo.addons.hw_proxy.controllers.main as hw_proxy
 except ImportError:
     EscposProxy = object
     EscposDriver = object

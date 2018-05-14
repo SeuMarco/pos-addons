@@ -8,7 +8,7 @@ import requests
 import select
 import subprocess
 import unittest2
-import xmlrpclib
+import xmlrpc.client
 
 #
 # Logger
@@ -43,7 +43,7 @@ class ExternalTestCase(unittest2.TestCase):
         super(ExternalTestCase, cls).setUpClass()
         # Authenticate
         admin_uid = cls.login2uid(ADMIN_LOGIN, ADMIN_PASSWORD)
-        models = xmlrpclib.ServerProxy('{}/xmlrpc/2/object'.format(MAIN_URL))
+        models = xmlrpc.client.ServerProxy('{}/xmlrpc/2/object'.format(MAIN_URL))
         assert admin_uid, 'Authentication failed %s' % ((DATABASE, ADMIN_LOGIN, ADMIN_PASSWORD),)
 
         cls.admin_uid = admin_uid
@@ -54,7 +54,7 @@ class ExternalTestCase(unittest2.TestCase):
     #
     @classmethod
     def login2uid(cls, login, password):
-        common = xmlrpclib.ServerProxy('{}/xmlrpc/2/common'.format(MAIN_URL))
+        common = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(MAIN_URL))
         return common.authenticate(DATABASE, login, password, {})
 
     def execute_kw(self, model, method, rpc_args=None, rpc_kwargs=None, uid=None, password=None):
@@ -96,7 +96,7 @@ class ExternalTestCase(unittest2.TestCase):
 
     def phantom_js_multi(self, sessions, commands, timeout=60, **kw):
         """check phantomtest.js for description of sessions and commands"""
-        for sname, sdata in sessions.items():
+        for sname, sdata in list(sessions.items()):
             sid = self.authenticate(sdata['login'], sdata.get('password'))
             sdata.setdefault('session_id', sid)
 
@@ -116,7 +116,7 @@ class ExternalTestCase(unittest2.TestCase):
 
         self.phantom_run(cmd, timeout)
 
-    # Copy-paste from openerp/tests/common.py
+    # Copy-paste from odoo/tests/common.py
     def phantom_run(self, cmd, timeout):
         _logger.info('phantom_run executing %s', ' '.join(cmd))
 

@@ -24,14 +24,14 @@ msgid "Product"
 msgstr "Produkt"
 
 #. module: pos_product_lot
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_product_lot/static/src/xml/pos.xml:14
 #, python-format
 msgid "Unpack corresponding lot"
 msgstr "Entsprechendes Los entpacken"
 
 #. module: pos_product_lot
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_product_lot/static/src/xml/pos.xml:5
 #, python-format
 msgid "lot of"

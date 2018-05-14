@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_longpolling
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_longpolling/static/src/js/test_longpoll_pos.js:14
 #, python-format
 msgid ""
@@ -34,7 +34,7 @@ msgid "Autostart longpolling"
 msgstr ""
 
 #. module: pos_longpolling
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_longpolling/static/src/js/pos_longpolling.js:128
 #, python-format
 msgid "Error"
@@ -56,7 +56,7 @@ msgid "Pong timeout"
 msgstr ""
 
 #. module: pos_longpolling
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_longpolling/static/src/js/test_longpoll_pos.js:10
 #, python-format
 msgid "Ready to launch your <b>point of sale</b>? <i>Click here</i>."

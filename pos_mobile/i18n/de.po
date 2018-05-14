@@ -19,14 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_mobile
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_mobile/static/src/xml/pos.xml:82
 #, python-format
 msgid "Customer"
 msgstr "Kunde"
 
 #. module: pos_mobile
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_mobile/static/src/xml/pos.xml:62
 #, python-format
 msgid "Please select a payment method."

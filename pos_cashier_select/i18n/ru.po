@@ -19,35 +19,35 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. module: pos_cashier_select
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_cashier_select/static/src/xml/pos.xml:17
 #, python-format
 msgid "Cancel"
 msgstr "Отменить"
 
 #. module: pos_cashier_select
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_cashier_select/static/src/js/main.js:107
 #, python-format
 msgid "Change Cashier"
 msgstr ""
 
 #. module: pos_cashier_select
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_cashier_select/static/src/js/main.js:92
 #, python-format
 msgid "Empty Serial/Lot Number"
 msgstr ""
 
 #. module: pos_cashier_select
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_cashier_select/static/src/js/main.js:93
 #, python-format
 msgid "One or more product(s) required serial/lot number."
 msgstr ""
 
 #. module: pos_cashier_select
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_cashier_select/static/src/js/main.js:181
 #, python-format
 msgid "Select User"

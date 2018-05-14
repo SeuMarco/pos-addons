@@ -2,7 +2,7 @@
 // jshint evil: true, loopfunc: true
 /*
 
-Modified phantomtest.js from odoo ( https://github.com/odoo/odoo/blob/8.0/openerp/tests/phantomtest.js ). It accepts following extra parameters:
+Modified phantomtest.js from odoo ( https://github.com/odoo/odoo/blob/8.0/odoo/tests/phantomtest.js ). It accepts following extra parameters:
 
 * ``sessions`` is dictonary of sessions::
 

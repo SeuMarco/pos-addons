@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_fiscal_current
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_fiscal_current/static/src/xml/pos.xml:5
 #, python-format
 msgid "Fiscal:"

@@ -39,7 +39,7 @@ msgid "Amount total w/o Tax"
 msgstr "Betrag total ohne Steuer"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/widgets.js:243
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:61
 #, python-format
@@ -47,7 +47,7 @@ msgid "Apply"
 msgstr "Anwenden"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:35
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:58
 #, python-format
@@ -85,7 +85,7 @@ msgid "Canceled Order lines"
 msgstr "Stornierte Bestellzeilen"
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/widgets.js:56
 #, python-format
 msgid "Cancellation Reason"
@@ -195,7 +195,7 @@ msgid "Months"
 msgstr ""
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:74
 #, python-format
 msgid "Name"
@@ -212,7 +212,7 @@ msgid "No Negative Refunds"
 msgstr ""
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:39
 #, python-format
 msgid "Ok"
@@ -224,7 +224,7 @@ msgid "Order Cancellation Reason"
 msgstr ""
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/js/models.js:36
 #, python-format
 msgid "Order Deleting"
@@ -236,7 +236,7 @@ msgid "Order Ref"
 msgstr ""
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:24
 #, python-format
 msgid "Other"
@@ -288,7 +288,7 @@ msgid "Products"
 msgstr ""
 
 #. module: pos_order_cancel
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:9
 #: code:addons/pos_order_cancel/static/src/xml/cancel_order.xml:12
 #: model:ir.model.fields,field_description:pos_order_cancel.field_pos_cancelled_reason_name

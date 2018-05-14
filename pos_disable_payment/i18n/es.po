@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_disable_payment
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_disable_payment/static/src/js/tour.js:17
 #, python-format
 msgid ""
@@ -69,7 +69,7 @@ msgid "Allow remove order line"
 msgstr "Permitir eliminar líneas de la orden"
 
 #. module: pos_disable_payment
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_disable_payment/static/src/js/tour.js:13
 #, python-format
 msgid "Ready to launch your <b>point of sale</b>? <i>Click here</i>."

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import copy
 
 try:
@@ -79,7 +78,7 @@ def encode_char(char, cur_encoding):
             if encoding in remaining:
                 del remaining[encoding]
             if len(remaining) >= 1:
-                encoding = remaining.items()[0][0]
+                encoding = list(remaining.items())[0][0]
             else:
                 encoding = 'cp437'
                 encoded = '\xb1'    # could not encode, output error character

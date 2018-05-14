@@ -34,7 +34,7 @@ msgid "Negative stock approval"
 msgstr "Genehmigung von negativem Bestand"
 
 #. module: pos_product_available_negative
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_product_available_negative/static/src/js/pos.js:21
 #, python-format
 msgid "Order has out-of-stock product and must be approved by supervisor"

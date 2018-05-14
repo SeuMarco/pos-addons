@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_product_available
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_product_available/static/src/xml/pos.xml:15
 #, python-format
 msgid "(of"

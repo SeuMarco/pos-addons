@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:117
 #, python-format
 msgid "* Some fields are editable only for POS managers."
@@ -32,7 +32,7 @@ msgid "Amount"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:86
 #: model:ir.model.fields,field_description:pos_debt_notebook.field_report_pos_debt_balance
 #, python-format
@@ -106,7 +106,7 @@ msgid "Created on"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:18
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:74
 #: model:ir.model.fields,field_description:pos_debt_notebook.field_res_partner_credit_balance
@@ -143,7 +143,7 @@ msgid "Credit:"
 msgstr "Кредиты:"
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:85
 #, python-format
 msgid "Credits Spent (Out)"
@@ -171,7 +171,7 @@ msgid "Custom amount per each employee"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:389
 #: model:ir.ui.view,arch_db:pos_debt_notebook.view_pos_credit_update_search
 #: model:ir.ui.view,arch_db:pos_debt_notebook.view_report_pos_debt_search
@@ -180,7 +180,7 @@ msgid "Customer"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:150
 #, python-format
 msgid "Customer:"
@@ -193,7 +193,7 @@ msgid "Date"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:81
 #, python-format
 msgid "Date/Time"
@@ -206,7 +206,7 @@ msgid "Day"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:12
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:73
 #: model:ir.model.fields,field_description:pos_debt_notebook.field_res_partner_debt
@@ -288,7 +288,7 @@ msgid "Display Name"
 msgstr "Отображаемое Имя"
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:277
 #, python-format
 msgid "Don't forget to specify Customer when sell Credits."
@@ -314,14 +314,14 @@ msgid ""
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:283
 #, python-format
 msgid "Empty Order"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:559
 #, python-format
 msgid "Error: No Debt"
@@ -411,7 +411,7 @@ msgid "Line ids"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:140
 #, python-format
 msgid "Load More"
@@ -430,7 +430,7 @@ msgid "Manual Update"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:75
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:111
 #: model:ir.model.fields,field_description:pos_debt_notebook.field_res_partner_debt_limit
@@ -440,14 +440,14 @@ msgid "Max Debt"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:110
 #, python-format
 msgid "Max Debt *"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:290
 #, python-format
 msgid "Max Debt exceeded"
@@ -472,7 +472,7 @@ msgid ""
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:163
 #, python-format
 msgid "New"
@@ -542,7 +542,7 @@ msgid "Pay Debt"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:53
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:67
 #, python-format
@@ -565,7 +565,7 @@ msgid "Payment type"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:298
 #, python-format
 msgid ""
@@ -573,7 +573,7 @@ msgid ""
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:82
 #, python-format
 msgid "Point of Sale"
@@ -593,7 +593,7 @@ msgid "Point of Sale Orders"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:159
 #, python-format
 msgid "Prev"
@@ -615,14 +615,14 @@ msgid "Product list"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:83
 #, python-format
 msgid "Products"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:84
 #, python-format
 msgid "Purchased Credits (In)"
@@ -647,14 +647,14 @@ msgid "Session"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:64
 #, python-format
 msgid "Show Customers"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/xml/pos.xml:61
 #, python-format
 msgid "Show Debt History"
@@ -673,14 +673,14 @@ msgid "The partner is not allowed to have a debt more than this value"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:560
 #, python-format
 msgid "The selected customer has no debt."
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:284
 #, python-format
 msgid ""
@@ -739,14 +739,14 @@ msgid "Total to pay"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:297
 #, python-format
 msgid "Unable to return the change with a debt payment method"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:269
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:276
 #, python-format
@@ -787,7 +787,7 @@ msgid "Wizard id"
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:291
 #, python-format
 msgid ""
@@ -796,7 +796,7 @@ msgid ""
 msgstr ""
 
 #. module: pos_debt_notebook
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_debt_notebook/static/src/js/pos.js:270
 #, python-format
 msgid "You cannot use Debt payment. Select customer first."

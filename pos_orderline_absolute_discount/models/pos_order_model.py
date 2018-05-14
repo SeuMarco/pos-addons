@@ -150,7 +150,7 @@ class ReportSaleDetails(models.AbstractModel):
             'total_paid': user_currency.round(total),
             'payments': payments,
             'company_name': self.env.user.company_id.name,
-            'taxes': taxes.values(),
+            'taxes': list(taxes.values()),
             'products': sorted([{
                 'product_id': product.id,
                 'product_name': product.name,
@@ -160,5 +160,5 @@ class ReportSaleDetails(models.AbstractModel):
                 'discount': discount,
                 'absolute_discount': absolute_discount,
                 'uom': product.uom_id.name
-            } for (product, price_unit, discount), (qty, absolute_discount) in products_sold.items()], key=lambda l: l['product_name'])
+            } for (product, price_unit, discount), (qty, absolute_discount) in list(products_sold.items())], key=lambda l: l['product_name'])
         }

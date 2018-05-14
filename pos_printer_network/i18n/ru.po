@@ -24,7 +24,7 @@ msgid "Check this box if this printer is Network printer"
 msgstr "Установите флажок, если этот принтер является сетевым принтером"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/xml/pos_printer_network.xml:43
 #, python-format
 msgid "IP"
@@ -36,7 +36,7 @@ msgid "IP address of the network printer used for receipts"
 msgstr "IP-адрес сетевого принтера, используемого для квитанций"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/xml/pos_printer_network.xml:42
 #, python-format
 msgid "Name"
@@ -55,21 +55,21 @@ msgid "Network Printer IP"
 msgstr "IP - Сетевого Принтера"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/xml/pos_printer_network.xml:38
 #, python-format
 msgid "Network printers"
 msgstr "Сетевые Принтеры"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/js/network_printer.js:243
 #, python-format
 msgid "Offline"
 msgstr "Оффлайн"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/xml/pos_printer_network.xml:63
 #, python-format
 msgid "Ok"
@@ -82,14 +82,14 @@ msgid "Printer Type"
 msgstr "Тип Принтера"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/js/network_printer.js:231
 #, python-format
 msgid "Scale"
 msgstr ""
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/js/network_printer.js:202
 #, python-format
 msgid "Scanner"
@@ -101,7 +101,7 @@ msgid "Select the printer type you want to use receipt printing"
 msgstr "Выберите тип принтера, на которой вы хотите печатать квитанцию"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/xml/pos_printer_network.xml:44
 #, python-format
 msgid "Status"
@@ -113,21 +113,21 @@ msgid "USB Printer"
 msgstr "USB Принтер"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/xml/pos_printer_network.xml:54
 #, python-format
 msgid "USB printers"
 msgstr "USB Принтеры"
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/xml/pos_printer_network.xml:21
 #, python-format
 msgid "offline"
 msgstr "Оффлайн "
 
 #. module: pos_printer_network
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_printer_network/static/src/xml/pos_printer_network.xml:24
 #, python-format
 msgid "online"

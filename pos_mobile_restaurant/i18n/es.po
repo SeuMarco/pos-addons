@@ -19,14 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_mobile_restaurant
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_mobile_restaurant/static/src/xml/pos.xml:9
 #, python-format
 msgid "Extended function"
 msgstr ""
 
 #. module: pos_mobile_restaurant
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_mobile_restaurant/static/src/js/floors.js:61
 #, python-format
 msgid "Guests ?"

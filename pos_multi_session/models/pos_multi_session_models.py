@@ -19,8 +19,8 @@ class PosConfig(models.Model):
     fiscal_position_ids = fields.Many2many(related='multi_session_id.fiscal_position_ids')
 
     def _search_current_session_state(self, operator, value):
-        ids = map(lambda x: x.id, self.env["pos.config"].search([]))
-        value_ids = map(lambda x: x.config_id.id, self.env["pos.session"].search([('state', '=', value)]))
+        ids = [x.id for x in self.env["pos.config"].search([])]
+        value_ids = [x.config_id.id for x in self.env["pos.session"].search([('state', '=', value)])]
         value_ids = list(set(value_ids))
         if operator == '=':
             return [('id', 'in', value_ids)]

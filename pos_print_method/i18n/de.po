@@ -20,42 +20,42 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_print_method
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_print_method/static/src/js/tour.js:25
 #, python-format
 msgid "<p>Click <b>Fruits and Vegetables</b> category.</p>"
 msgstr ""
 
 #. module: pos_print_method
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_print_method/static/src/js/tour.js:37
 #, python-format
 msgid "<p>Click <b>Order</b> button for printing in <b>Kitchen</b></p>"
 msgstr ""
 
 #. module: pos_print_method
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_print_method/static/src/js/tour.js:21
 #, python-format
 msgid "<p>Click <b>table</b></p>"
 msgstr ""
 
 #. module: pos_print_method
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_print_method/static/src/js/tour.js:29
 #, python-format
 msgid "<p>Click product 1</p>"
 msgstr ""
 
 #. module: pos_print_method
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_print_method/static/src/js/tour.js:33
 #, python-format
 msgid "<p>Click product 2</p>"
 msgstr ""
 
 #. module: pos_print_method
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_print_method/static/src/js/tour.js:17
 #, python-format
 msgid ""
@@ -91,7 +91,7 @@ msgid "Print Method"
 msgstr "Druckmethode"
 
 #. module: pos_print_method
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_print_method/static/src/js/tour.js:13
 #, python-format
 msgid "Ready to launch your <b>point of sale</b>? <i>Click here</i>."

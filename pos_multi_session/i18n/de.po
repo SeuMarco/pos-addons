@@ -20,14 +20,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_multi_session
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_multi_session/static/src/xml/pos_multi_session.xml:7
 #, python-format
 msgid ", edited by"
 msgstr ", editiert durch"
 
 #. module: pos_multi_session
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_multi_session/static/src/js/test_pos_multi_session.js:24
 #, python-format
 msgid ""
@@ -121,7 +121,7 @@ msgid "Name"
 msgstr "Name"
 
 #. module: pos_multi_session
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_multi_session/static/src/xml/pos_multi_session.xml:18
 #: code:addons/pos_multi_session/static/src/xml/pos_multi_session.xml:25
 #, python-format
@@ -129,7 +129,7 @@ msgid "New"
 msgstr "Neu"
 
 #. module: pos_multi_session
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_multi_session/static/src/js/pos_multi_session.js:737
 #, python-format
 msgid ""
@@ -163,7 +163,7 @@ msgid "POSes in Multi-session"
 msgstr ""
 
 #. module: pos_multi_session
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_multi_session/static/src/js/test_pos_multi_session.js:20
 #, python-format
 msgid "Ready to launch your <b>point of sale</b>? <i>Click here</i>."
@@ -200,7 +200,7 @@ msgid "Sync Server"
 msgstr ""
 
 #. module: pos_multi_session
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_multi_session/static/src/js/pos_multi_session.js:671
 #, python-format
 msgid "There is a conflict during synchronization, try your action again"
@@ -212,7 +212,7 @@ msgid "To remove or add a POS to multi-session close its session first"
 msgstr ""
 
 #. module: pos_multi_session
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_multi_session/static/src/js/pos_multi_session.js:717
 #, python-format
 msgid "Warning"
@@ -225,7 +225,7 @@ msgid ""
 msgstr ""
 
 #. module: pos_multi_session
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_multi_session/static/src/xml/pos_multi_session.xml:5
 #, python-format
 msgid "added by"

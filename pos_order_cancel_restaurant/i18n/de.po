@@ -40,7 +40,7 @@ msgid "Burned"
 msgstr "Verbrannt"
 
 #. module: pos_order_cancel_restaurant
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel_restaurant/static/src/js/widgets.js:29
 #, python-format
 msgid "Destroy Current Order ?"
@@ -81,7 +81,7 @@ msgstr ""
 "bedeutet das, dass das Produkt nach der Zubereitung storniert wurde."
 
 #. module: pos_order_cancel_restaurant
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel_restaurant/static/src/xml/cancel_order.xml:8
 #: code:addons/pos_order_cancel_restaurant/static/src/xml/cancel_order.xml:19
 #, python-format
@@ -118,7 +118,7 @@ msgid "Wrong Temperature"
 msgstr "Falsche Temperatur"
 
 #. module: pos_order_cancel_restaurant
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_cancel_restaurant/static/src/js/widgets.js:30
 #, python-format
 msgid "You will lose any data associated with the current order"

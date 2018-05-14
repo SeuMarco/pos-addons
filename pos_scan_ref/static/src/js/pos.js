@@ -39,8 +39,8 @@ function pos(instance, module){
     });
 }
 
-var _super = window.openerp.point_of_sale;
-window.openerp.point_of_sale = function(instance){
+var _super = window.odoo.point_of_sale;
+window.odoo.point_of_sale = function(instance){
     _super(instance);
     var module = instance.point_of_sale;
 

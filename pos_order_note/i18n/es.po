@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:30
 #: code:addons/pos_order_note/static/src/js/tour.js:46
 #, python-format
@@ -27,14 +27,14 @@ msgid "<p>Click on <b>Note</b> button</p>"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:50
 #, python-format
 msgid "<p>Click on <b>Order Note</b></p>"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:62
 #, python-format
 msgid ""
@@ -42,14 +42,14 @@ msgid ""
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:21
 #, python-format
 msgid "<p>Click on <b>table</b></p>"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:42
 #: code:addons/pos_order_note/static/src/js/tour.js:58
 #, python-format
@@ -57,28 +57,28 @@ msgid "<p>Click on Confirm button</p>"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:54
 #, python-format
 msgid "<p>Click on predefined note</p>"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:34
 #, python-format
 msgid "<p>Click on the first predefined note</p>"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:38
 #, python-format
 msgid "<p>Click on the second predefined note</p>"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:17
 #, python-format
 msgid ""
@@ -88,35 +88,35 @@ msgid ""
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:25
 #, python-format
 msgid "<p>Select the first product in the product list</p>"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/order_note.js:325
 #, python-format
 msgid "Add Note for Order"
 msgstr "Agregar Nota a la Orden"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/order_note.js:329
 #, python-format
 msgid "Add Note for Product"
 msgstr "Agregar Nota al Producto"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:309
 #, python-format
 msgid "Apply"
 msgstr "Aplicar"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:284
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:306
 #, python-format
@@ -164,7 +164,7 @@ msgid "Last Updated on"
 msgstr "Última Actualización en"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:181
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:192
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:202
@@ -176,14 +176,14 @@ msgid "NOTE"
 msgstr "NOTA"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:322
 #, python-format
 msgid "Name"
 msgstr "Nombre"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:264
 #: model:ir.model.fields,field_description:pos_order_note.field_pos_product_notes_name
 #, python-format
@@ -191,7 +191,7 @@ msgid "Note"
 msgstr "Nota"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:10
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:27
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:37
@@ -207,7 +207,7 @@ msgid "Notes for POS"
 msgstr "Notas para el TPV"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:100
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:118
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:132
@@ -217,21 +217,21 @@ msgid "ORDER NOTE"
 msgstr "NOTA DE ORDEN"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:287
 #, python-format
 msgid "Ok"
 msgstr ""
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:260
 #, python-format
 msgid "Order Note"
 msgstr "Nota de Orden"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:280
 #, python-format
 msgid "Other"
@@ -246,7 +246,7 @@ msgid "POS Product Notes"
 msgstr "Notas de Productos del TPV"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/xml/order_note.xml:259
 #, python-format
 msgid "Product Note"
@@ -258,7 +258,7 @@ msgid "Product Template"
 msgstr "Plantilla de Producto"
 
 #. module: pos_order_note
-#. openerp-web
+#. odoo-web
 #: code:addons/pos_order_note/static/src/js/tour.js:13
 #, python-format
 msgid "Ready to launch your <b>point of sale</b>? <i>Click here</i>."
